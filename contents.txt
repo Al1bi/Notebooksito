@@ -2,3 +2,25 @@
 # Section headings must be in square brackets
 # Subsections within a section should follow the format:
 #   [filename within code directory][tab character \t][subsection title]
+
+
+[C++]
+
+[Strings]
+
+[Graph algorithms]
+
+[Flows]
+
+[Data Structures]
+
+[Math]
+
+[Dynamic Programming]
+
+[Geometry]
+
+[Miscellaneous]
+
+
+[Fin]
