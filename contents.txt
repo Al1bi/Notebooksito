@@ -5,6 +5,7 @@
 
 
 [C++]
+c++/template.cpp	C++ template
 
 [Strings]
 

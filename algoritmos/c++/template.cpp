@@ -17,7 +17,7 @@ const int MAX = 1e6+7;
 const double PI = acos(-1);
 const double EPS = 1e-9;
 
-int dx[] = {1, 0, -1, 1};
+int dx[] = {1, 0, -1, 0};
 int dy[] = {0, 1, 0, -1};
 
 int main(){
@@ -25,5 +25,5 @@ int main(){
   cin.tie(0); cout.tie(0);
 
   
-
+  return 0;
 }

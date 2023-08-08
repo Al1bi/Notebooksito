@@ -1,6 +1,5 @@
 import subprocess
 import os
-
 code_dir = "algoritmos"
 
 def get_sections():
@@ -10,7 +9,6 @@ def get_sections():
         for line in f:
             if '#' in line: line = line[:line.find('#')]
             line = line.strip()
-            
             if len(line) == 0: continue
             if line[0] == '[':
                 if section_name is not None:
@@ -27,6 +25,17 @@ def get_sections():
                     raise ValueError('Subsection given without section')
                 subsections.append((filename, subsection_name))
     return sections
+
+def get_style(filename):
+    ext = filename.lower().split('.')[-1]
+    if ext in ['c', 'cc', 'cpp', 'h']:
+        return 'cpp'
+    elif ext in ['java']:
+        return 'java'
+    elif ext in ['py']:
+        return 'py'
+    else:
+        return 'txt'
 
 # TODO: check if this is everything we need
 def texify(s):
@@ -45,31 +54,15 @@ def get_tex(sections):
         tex += '\n'
     return tex
 
-
-def get_style(filename):
-    ext = filename.lower().split('.')[-1]
-    if ext in ['c', 'cc', 'cpp', 'h']:
-        return 'cpp'
-    elif ext in ['java']:
-        return 'java'
-    elif ext in ['py']:
-        return 'py'
-    else:
-        return 'txt'
-
-
-if __name__ == "__main__" :
+if __name__ == "__main__":
     sections = get_sections()
     tex = get_tex(sections)
-
     with open('contents.tex', 'w') as f:
         f.write(tex)
-
-    latexmk_options = ["latexmk", "-pdf", "notebook.tex"]
+    latexmk_options = ["latexmk","-pdf", "notebook.tex"]
     subprocess.call(latexmk_options)
     remove_files = ["notebook.fls", "notebook.aux", "notebook.fdb_latexmk", 
     "notebook.log", "notebook.out", "notebook.toc"]
-
     for file in remove_files:
         if os.path.exists(file):
             os.remove(file)
