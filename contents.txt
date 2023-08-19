@@ -3,7 +3,6 @@
 # Subsections within a section should follow the format:
 #   [filename within code directory][tab character \t][subsection title]
 
-
 [C++]
 c++/template.cpp	C++ template
 
@@ -22,6 +21,5 @@ c++/template.cpp	C++ template
 [Geometry]
 
 [Miscellaneous]
-
 
 [Fin]

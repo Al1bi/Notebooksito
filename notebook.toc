@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}C++}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}C++ template}{1}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Strings}{1}{section.2}%
+\contentsline {section}{\numberline {3}Graph algorithms}{1}{section.3}%
+\contentsline {section}{\numberline {4}Flows}{1}{section.4}%
+\contentsline {section}{\numberline {5}Data Structures}{1}{section.5}%
+\contentsline {section}{\numberline {6}Math}{1}{section.6}%
+\contentsline {section}{\numberline {7}Dynamic Programming}{1}{section.7}%
+\contentsline {section}{\numberline {8}Geometry}{1}{section.8}%
+\contentsline {section}{\numberline {9}Miscellaneous}{1}{section.9}%
+\contentsline {section}{\numberline {10}Theory}{2}{section.10}%
+\contentsline {subsection}{DP Optimization Theory}{2}{section*.1}%
+\contentsline {subsection}{Combinatorics}{2}{section*.2}%
+\contentsline {subsection}{Number Theory}{3}{section*.3}%
+\contentsline {subsection}{String Algorithms}{4}{section*.4}%
+\contentsline {subsection}{Graph Theory}{4}{section*.5}%
+\contentsline {subsection}{Games}{5}{section*.6}%
+\contentsline {subsection}{Bit tricks}{5}{section*.7}%
+\contentsline {subsection}{Math}{6}{section*.8}%
