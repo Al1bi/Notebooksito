@@ -3,6 +3,7 @@
 # Subsections within a section should follow the format:
 #   [filename within code directory][tab character \t][subsection title]
 
+#  !!! IMPORTANT TO USE /t NOT SPACES CHECK IT, SOMETIMES TAB CHARACTER WRITES SPACES NOT /t !!!
 [C++]
 c++/template.cpp	C++ template
 
