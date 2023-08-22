@@ -14,6 +14,8 @@ c++/template.cpp	C++ template
 [Flows]
 
 [Data Structures]
+Structures/SegmentTree.cpp	Segment Tree Recursive
+Structures/SegmentTree2D.cpp	Segment Tree 2D
 
 [Math]
 
