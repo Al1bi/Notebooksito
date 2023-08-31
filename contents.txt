@@ -8,11 +8,15 @@
 c++/template.cpp	C++ template
 
 [Strings]
+Strings/Trie.cpp	Trie
 Strings/z_function.cpp	Z function
 Strings/manachers.cpp	Manachers
 Strings/Prefix_function_KMP.cpp	Prefix function KMP
 
 [Graph algorithms]
+Graphs/topological_sort.cpp	Topological sort
+Graphs/kosaraju.cpp	Kosaraju: Strongly connected components
+Graphs/mst_kruskal.cpp	MST Kruskal
 
 [Flows]
 

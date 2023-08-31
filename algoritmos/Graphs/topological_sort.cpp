@@ -10,7 +10,7 @@ void dfs_topo(int v){
 }
 
 void topo(){
-  for(int i =0; i < N; i++){
+  for(int i = 0; i < N; i++){
     if(!visited[i]) dfs_topo(i);
   }
 }
