@@ -19,10 +19,14 @@ Graphs/kosaraju.cpp	Kosaraju: Strongly connected components
 Graphs/mst_kruskal.cpp	MST Kruskal
 
 [Flows]
+Flows/Edmons_karp.cpp	Edmons-Karp
 
 [Data Structures]
-Structures/SegmentTree.cpp	Segment Tree Recursive
+Structures/Disjoin_set.cpp	Disjoin Set Union
+Structures/SegmentTree.cpp	Segment Tree
 Structures/SegmentTree2D.cpp	Segment Tree 2D
+Structures/Ordered_set.cpp	Ordered Set
+Structures/Sparse_table.cpp	RMQ
 
 [Math]
 
