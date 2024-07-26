@@ -9,9 +9,9 @@ c++/template.cpp	C++ template
 
 [Strings]
 Strings/Trie.cpp	Trie
-Strings/z_function.cpp	Z function
+Strings/z_function.cpp	Z's function
 Strings/manachers.cpp	Manachers
-Strings/Prefix_function_KMP.cpp	Prefix function KMP
+Strings/Prefix_function_KMP.cpp	KMP
 
 [Graph algorithms]
 Graphs/topological_sort.cpp	Topological sort
@@ -24,15 +24,19 @@ Flows/Edmons_karp.cpp	Edmons-Karp
 [Data Structures]
 Structures/Disjoin_set.cpp	Disjoin Set Union
 Structures/SegmentTree.cpp	Segment Tree
+Structures/Seg_tree_lazy.cpp	Segment Tree Lazy
 Structures/SegmentTree2D.cpp	Segment Tree 2D
 Structures/Ordered_set.cpp	Ordered Set
 Structures/Sparse_table.cpp	RMQ
 
 [Math]
+Math/Euler_totient.cpp	Euler’s Totient Function
 
 [Dynamic Programming]
 
 [Geometry]
+Geometry/Point.cpp	Point
+Geometry/Convex_hull.cpp	Convex Hull
 
 [Miscellaneous]
 
