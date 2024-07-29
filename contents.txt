@@ -17,6 +17,7 @@ Strings/Prefix_function_KMP.cpp	KMP
 Graphs/topological_sort.cpp	Topological sort
 Graphs/kosaraju.cpp	Kosaraju: Strongly connected components
 Graphs/mst_kruskal.cpp	MST Kruskal
+Graphs/Centroid_decomp.cpp	Centroid Decomposition
 
 [Flows]
 Flows/Edmons_karp.cpp	Edmons-Karp
