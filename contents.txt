@@ -34,6 +34,7 @@ Structures/Sparse_table.cpp	RMQ
 Math/Euler_totient.cpp	Euler’s Totient Function
 
 [Dynamic Programming]
+DP/LIS.cpp	Longest increasing subsequence
 
 [Geometry]
 Geometry/Point.cpp	Point
