@@ -17,6 +17,7 @@ Strings/Hashing.cpp	Hashing
 [Graph algorithms]
 Graphs/topological_sort.cpp	Topological sort
 Graphs/kosaraju.cpp	Kosaraju: Strongly connected components
+Graphs/tarjan.cpp	Tarjan: Strongly connected components
 Graphs/mst_kruskal.cpp	MST Kruskal
 Graphs/Centroid_decomp.cpp	Centroid Decomposition
 
@@ -32,6 +33,8 @@ Structures/Ordered_set.cpp	Ordered Set
 Structures/Sparse_table.cpp	RMQ
 
 [Math]
+Math/ext_euclidean.cpp	Extended Euclidean (Diophantine)
+Math/Inversa_modular.cpp	Inversa Modular
 Math/Euler_totient.cpp	Euler’s Totient Function
 
 [Dynamic Programming]
