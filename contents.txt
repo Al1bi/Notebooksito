@@ -12,6 +12,7 @@ Strings/Trie.cpp	Trie
 Strings/z_function.cpp	Z's function
 Strings/manachers.cpp	Manachers
 Strings/Prefix_function_KMP.cpp	KMP
+Strings/Hashing.cpp	Hashing
 
 [Graph algorithms]
 Graphs/topological_sort.cpp	Topological sort
