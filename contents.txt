@@ -13,19 +13,23 @@ Strings/z_function.cpp	Z's function
 Strings/manachers.cpp	Manachers
 Strings/Prefix_function_KMP.cpp	KMP
 Strings/Hashing.cpp	Hashing
+Strings/SuffixArray.cpp	Suffix Array
 
 [Graph algorithms]
 Graphs/topological_sort.cpp	Topological sort
+Graphs/Dijkstra.cpp	Dijkstra
+Graphs/FloydWarshall.cpp	Floyd Warshall
 Graphs/kosaraju.cpp	Kosaraju: Strongly connected components
 Graphs/tarjan.cpp	Tarjan: Strongly connected components
-Graphs/mst_kruskal.cpp	MST Kruskal
+Graphs/Kruskal.cpp	MST Kruskal
 Graphs/Centroid_decomp.cpp	Centroid Decomposition
 
 [Flows]
 Flows/Edmons_karp.cpp	Edmons-Karp
 
 [Data Structures]
-Structures/Disjoin_set.cpp	Disjoin Set Union
+Structures/UnionFind.cpp	Disjoin Set Union
+Structures/FenwickTree.cpp	Fenwick Tree
 Structures/SegmentTree.cpp	Segment Tree
 Structures/Seg_tree_lazy.cpp	Segment Tree Lazy
 Structures/SegmentTree2D.cpp	Segment Tree 2D
@@ -33,12 +37,16 @@ Structures/Ordered_set.cpp	Ordered Set
 Structures/Sparse_table.cpp	RMQ
 
 [Math]
+Math/criba.cpp	Sieve of Eratosthenes
 Math/ext_euclidean.cpp	Extended Euclidean (Diophantine)
 Math/Inversa_modular.cpp	Inversa Modular
 Math/Euler_totient.cpp	Euler’s Totient Function
+Math/fft.cpp	FFT
+Math/multiply.cpp	Multiply
 
 [Dynamic Programming]
 DP/LIS.cpp	Longest increasing subsequence
+DP/Max2dRangeSum.cpp	Max 2D Range Sum 
 
 [Geometry]
 Geometry/Point.cpp	Point
