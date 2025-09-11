@@ -1,29 +1,22 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
-#define endl '\n'
-#define fi first
-#define se second
-#define pb push_back
-#define umap unordered_map
-#define all(v) v.begin(),v.end()
-#define allr(v) v.rbegin(),v.rend()
-
-typedef long long int ll;
-typedef long double ld;
-
-const int INF = 1e9;
-const int MAX = 1e6+7;
-const double PI = acos(-1);
-const double EPS = 1e-9;
-
-int dx[] = {1, 0, -1, 0};
-int dy[] = {0, 1, 0, -1};
+#define ffor(i,o,f)        for(int i = o; i < f; i++)
+#define bfor(i,f,o)        for(int i = f; i >= o; i--)
+#define pb                 push_back
+#define all(a)             (a).begin(), (a).end()
+#define PI                 acos(-1)
+#define endl               '\n'
+#define lcm(a,b)           a*(b/__gcd(a,b))
+typedef long long          ll;
+typedef long double        ld;
+typedef vector < int >     vi; 
+typedef vector < ll >      vll; 
+const int INF = int(1e9 + 7);
 
 int main(){
-  ios::sync_with_stdio(0);
-  cin.tie(0); cout.tie(0);
-
-  
-  return 0;
+    ios_base::sync_with_stdio(false); 
+    cin.tie(0); cout.tie(0);
+    return 0;
 }
