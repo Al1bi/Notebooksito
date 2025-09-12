@@ -28,7 +28,7 @@ Graphs/Centroid_decomp.cpp	Centroid Decomposition
 Flows/Edmons_karp.cpp	Edmons-Karp
 
 [Data Structures]
-Structures/UnionFind.cpp	Disjoin Set Union
+Structures/DisjoinSet.cpp	Disjoin Set Union
 Structures/FenwickTree.cpp	Fenwick Tree
 Structures/SegmentTree.cpp	Segment Tree
 Structures/Seg_tree_lazy.cpp	Segment Tree Lazy
