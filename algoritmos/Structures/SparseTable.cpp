@@ -11,7 +11,8 @@ void sparse_table(vector<int>& a){
   for(int i = 0; i < N; i++) st[0][i] = a[i];
   for(int i = 1; i <= K; i++){
     for(int j = 0; j + (1 << i) <= N; j++){
-      st[i][j] = min(st[i-1][j], st[i-1][j + (1 << (i-1))]);
+      st[i][j] = 
+        min(st[i-1][j], st[i-1][j + (1 << (i-1))]);
     }
   }
 }

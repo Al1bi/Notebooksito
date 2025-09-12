@@ -34,7 +34,7 @@ Structures/SegmentTree.cpp	Segment Tree
 Structures/Seg_tree_lazy.cpp	Segment Tree Lazy
 Structures/SegmentTree2D.cpp	Segment Tree 2D
 Structures/Ordered_set.cpp	Ordered Set
-Structures/Sparse_table.cpp	RMQ
+Structures/SparseTable.cpp	RMQ
 
 [Math]
 Math/criba.cpp	Sieve of Eratosthenes
