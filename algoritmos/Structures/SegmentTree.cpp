@@ -1,7 +1,7 @@
 struct stree{
   int n, neutro;
   vector<int> t;
-  stree(int n): n(n), t(4*n+7) {}
+  stree(int n): n(n), t(4*n) {}
   int merge(int nodeL, int nodeR){
     return nodeL + nodeR;
   }
