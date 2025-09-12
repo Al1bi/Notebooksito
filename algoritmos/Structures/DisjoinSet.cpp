@@ -1,7 +1,9 @@
 struct dsu{
   int n;
   vector<int> parent, sz, rnk;
-  dsu(int n): n(n), parent(n), sz(n), rnk(n){}
+  dsu(int n): n(n), parent(n), sz(n), rnk(n){
+    init();
+  }
   void init(){
     for(int i = 0; i < n; i++) make_set(i);
   }
@@ -21,15 +23,15 @@ struct dsu{
     if( a != b) parent[b] = a;
     //By size
     // if( a != b){
-    //   if(size[a] < _size[b]) swap(a, b);
+    //   if(sz[a] < sz[b]) swap(a, b);
     //   parent[b] = a;
-    //   _size[a] += _size[b];
+    //   sz[a] += sz[b];
     // } 
     //By rank
     // if(a != b){
-    //   if(rank[a] < rank[b]) swap(a, b);
+    //   if(rnk[a] < rnk[b]) swap(a, b);
     //   parent[b] = a;
-    //   if(rank[a] == rank[b]) rank[a]++:
-    // } By rank
+    //   if(rnk[a] == rnk[b]) rnk[a]++;
+    // }
   }
 };
