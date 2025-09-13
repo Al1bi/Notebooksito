@@ -5,7 +5,9 @@
 
 #  !!! IMPORTANT TO USE /t NOT SPACES CHECK IT, SOMETIMES TAB CHARACTER WRITES SPACES NOT /t !!!
 [C++]
+c++/run.sh	Runner
 c++/template.cpp	C++ template
+c++/Bits.cpp	Bits Manipulation
 
 [Strings]
 Strings/Trie.cpp	Trie
