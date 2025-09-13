@@ -21,7 +21,7 @@ Graphs/bfs.cpp	BFS
 Graphs/topological_sort.cpp	Topological sort
 Graphs/Dijkstra.cpp	Dijkstra
 Graphs/FloydWarshall.cpp	Floyd Warshall
-Graphs/bellman_ford.cpp Bellman Ford
+Graphs/bellman_ford.cpp	Bellman Ford
 Graphs/kosaraju.cpp	Kosaraju: Strongly connected components
 Graphs/tarjan.cpp	Tarjan: Strongly connected components
 Graphs/Kruskal.cpp	MST Kruskal
