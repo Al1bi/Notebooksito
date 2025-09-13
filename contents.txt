@@ -16,16 +16,20 @@ Strings/Hashing.cpp	Hashing
 Strings/SuffixArray.cpp	Suffix Array
 
 [Graph algorithms]
+Graphs/dfs.cpp	DFS
+Graphs/bfs.cpp	BFS
 Graphs/topological_sort.cpp	Topological sort
 Graphs/Dijkstra.cpp	Dijkstra
 Graphs/FloydWarshall.cpp	Floyd Warshall
+Graphs/bellman_ford.cpp Bellman Ford
 Graphs/kosaraju.cpp	Kosaraju: Strongly connected components
 Graphs/tarjan.cpp	Tarjan: Strongly connected components
 Graphs/Kruskal.cpp	MST Kruskal
 Graphs/Centroid_decomp.cpp	Centroid Decomposition
+Graphs/LCA_BL.cpp	LCA Binary Lifting
 
 [Flows]
-Flows/Edmons_karp.cpp	Edmons-Karp
+Flows/Edmonds_karp.cpp	Edmonds-Karp
 
 [Data Structures]
 Structures/UnionFind.cpp	Disjoin Set Union
