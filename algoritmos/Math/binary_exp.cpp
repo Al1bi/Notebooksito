@@ -1,6 +1,6 @@
-long long binpow(long long a, long long b, long long m) {
+ll binpow(ll a, ll b, ll m) {
     a %= m;
-    long long res = 1;
+    ll res = 1;
     while (b > 0) {
         if (b & 1)
             res = res * a % m;
