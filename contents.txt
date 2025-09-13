@@ -43,6 +43,8 @@ Math/Inversa_modular.cpp	Inversa Modular
 Math/Euler_totient.cpp	Euler’s Totient Function
 Math/fft.cpp	FFT
 Math/multiply.cpp	Multiply
+Math/miller_rabin.cpp	Miller Rabin Test
+Math/binary_exp.cpp	Binary Exponentiation
 
 [Dynamic Programming]
 DP/LIS.cpp	Longest increasing subsequence
