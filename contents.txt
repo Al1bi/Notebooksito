@@ -32,13 +32,13 @@ Graphs/LCA_BL.cpp	LCA Binary Lifting
 Flows/Edmonds_karp.cpp	Edmonds-Karp
 
 [Data Structures]
-Structures/UnionFind.cpp	Disjoin Set Union
+Structures/DisjoinSet.cpp	Disjoin Set Union
 Structures/FenwickTree.cpp	Fenwick Tree
 Structures/SegmentTree.cpp	Segment Tree
 Structures/Seg_tree_lazy.cpp	Segment Tree Lazy
 Structures/SegmentTree2D.cpp	Segment Tree 2D
-Structures/Ordered_set.cpp	Ordered Set
-Structures/Sparse_table.cpp	RMQ
+Structures/OrderedSet.cpp	Ordered Set
+Structures/SparseTable.cpp	RMQ
 
 [Math]
 Math/criba.cpp	Sieve of Eratosthenes
