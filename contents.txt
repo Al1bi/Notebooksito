@@ -25,7 +25,6 @@ Graphs/bellman_ford.cpp	Bellman Ford
 Graphs/kosaraju.cpp	Kosaraju: Strongly connected components
 Graphs/tarjan.cpp	Tarjan: Strongly connected components
 Graphs/Kruskal.cpp	MST Kruskal
-Graphs/Centroid_decomp.cpp	Centroid Decomposition
 Graphs/LCA_BL.cpp	LCA Binary Lifting
 
 [Flows]
@@ -40,6 +39,8 @@ Structures/STLazy.cpp	Segment Tree Lazy
 Structures/SegmentTree2D.cpp	Segment Tree 2D
 Structures/OrderedSet.cpp	Ordered Set
 Structures/SparseTable.cpp	RMQ
+Structures/CentroidDecomp.cpp	Centroid Decomposition
+Structures/Sack.cpp	Sack
 Structures/DynamicConnectivity.cpp	Dynamic Connectivity
 
 [Math]
