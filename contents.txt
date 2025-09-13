@@ -40,6 +40,7 @@ Structures/STLazy.cpp	Segment Tree Lazy
 Structures/SegmentTree2D.cpp	Segment Tree 2D
 Structures/OrderedSet.cpp	Ordered Set
 Structures/SparseTable.cpp	RMQ
+Structures/DynamicConnectivity.cpp	Dynamic Connectivity
 
 [Math]
 Math/criba.cpp	Sieve of Eratosthenes
