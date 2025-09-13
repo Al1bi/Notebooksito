@@ -1,13 +1,22 @@
-int BIT[1000], a[1000], n;
-void update(int x, int delta) //pos, val
-{
-      for(; x <= n; x += x&-x)
-        BIT[x] += delta;
-}
-int query(int x) //Range Q: query(r) - query(l-1)
-{
-     int sum = 0;
-     for(; x > 0; x -= x&-x)
-        sum += BIT[x];
-     return sum;
-}
+struct fwtree{
+   int n;
+   vector<int> bit;
+   fwtree(int n) : n(n), bit(n+1){}
+   void build(vector<int>& a){
+      for(int i = 0; i < n; i++)
+         add(i, a[i]);
+   }
+   int query(int idx){
+      int ret = 0;
+      for(++idx; idx ; idx -= idx & -idx)
+         ret += bit[idx];
+      return ret;
+   }
+   int query(int l, int r){
+      return query(r) - query(l-1);
+   }
+   void add(int idx, int dt){
+      for(++idx; idx <= n; idx += idx & -idx)
+         bit[idx] += dt;
+   }
+};

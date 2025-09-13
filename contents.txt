@@ -5,7 +5,9 @@
 
 #  !!! IMPORTANT TO USE /t NOT SPACES CHECK IT, SOMETIMES TAB CHARACTER WRITES SPACES NOT /t !!!
 [C++]
+c++/run.sh	Runner
 c++/template.cpp	C++ template
+c++/Bits.cpp	Bits Manipulation
 
 [Strings]
 Strings/Trie.cpp	Trie
@@ -25,7 +27,6 @@ Graphs/bellman_ford.cpp	Bellman Ford
 Graphs/kosaraju.cpp	Kosaraju: Strongly connected components
 Graphs/tarjan.cpp	Tarjan: Strongly connected components
 Graphs/Kruskal.cpp	MST Kruskal
-Graphs/Centroid_decomp.cpp	Centroid Decomposition
 Graphs/LCA_BL.cpp	LCA Binary Lifting
 
 [Flows]
@@ -34,11 +35,15 @@ Flows/Edmonds_karp.cpp	Edmonds-Karp
 [Data Structures]
 Structures/DisjoinSet.cpp	Disjoin Set Union
 Structures/FenwickTree.cpp	Fenwick Tree
+Structures/FT2D.cpp	Fenwick Tree 2D
 Structures/SegmentTree.cpp	Segment Tree
-Structures/Seg_tree_lazy.cpp	Segment Tree Lazy
+Structures/STLazy.cpp	Segment Tree Lazy
 Structures/SegmentTree2D.cpp	Segment Tree 2D
 Structures/OrderedSet.cpp	Ordered Set
 Structures/SparseTable.cpp	RMQ
+Structures/CentroidDecomp.cpp	Centroid Decomposition
+Structures/Sack.cpp	Sack
+Structures/DynamicConnectivity.cpp	Dynamic Connectivity
 
 [Math]
 Math/criba.cpp	Sieve of Eratosthenes
