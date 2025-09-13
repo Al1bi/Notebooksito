@@ -34,6 +34,7 @@ Flows/Edmonds_karp.cpp	Edmonds-Karp
 [Data Structures]
 Structures/DisjoinSet.cpp	Disjoin Set Union
 Structures/FenwickTree.cpp	Fenwick Tree
+Structures/FT2D.cpp	Fenwick Tree 2D
 Structures/SegmentTree.cpp	Segment Tree
 Structures/Seg_tree_lazy.cpp	Segment Tree Lazy
 Structures/SegmentTree2D.cpp	Segment Tree 2D
